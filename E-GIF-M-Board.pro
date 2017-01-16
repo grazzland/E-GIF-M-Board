@@ -1,4 +1,4 @@
-update=1/15/2017 10:53:41 PM
+update=1/16/2017 10:45:50 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -69,3 +69,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=C:/Users/Calin/Dropbox/Workspace/Proiecte_Lab_Teme/E-GIF-M/E-GIF-M-Board/custom_lib
+LibName31=C:/Users/Calin/Dropbox/Workspace/KiCad/kicad-library/library/ic-misc
+LibName32=C:/Users/Calin/Dropbox/Workspace/KiCad/kicad-library/library/ic-cpu
