@@ -31,6 +31,7 @@ LIBS:valves
 LIBS:custom_lib
 LIBS:ic-misc
 LIBS:ic-cpu
+LIBS:MCP2200
 LIBS:E-GIF-M-Board-cache
 EELAYER 25 0
 EELAYER END
