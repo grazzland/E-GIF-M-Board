@@ -1,4 +1,4 @@
-update=1/16/2017 11:27:24 PM
+update=1/17/2017 11:22:38 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -72,3 +72,4 @@ LibName30=C:/Users/Calin/Dropbox/Workspace/Proiecte_Lab_Teme/E-GIF-M/E-GIF-M-Boa
 LibName31=C:/Users/Calin/Dropbox/Workspace/KiCad/kicad-library/library/ic-misc
 LibName32=C:/Users/Calin/Dropbox/Workspace/KiCad/kicad-library/library/ic-cpu
 LibName33=C:/Users/Calin/Dropbox/Workspace/KiCad/libs/MCP2200
+LibName34=C:/Users/Calin/Dropbox/Workspace/KiCad/libs/w_connectors

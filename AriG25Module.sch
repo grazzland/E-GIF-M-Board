@@ -32,6 +32,7 @@ LIBS:custom_lib
 LIBS:ic-misc
 LIBS:ic-cpu
 LIBS:MCP2200
+LIBS:w_connectors
 LIBS:E-GIF-M-Board-cache
 EELAYER 25 0
 EELAYER END
@@ -796,4 +797,93 @@ Wire Wire Line
 	8500 4600 8600 4600
 Wire Wire Line
 	8500 4700 8600 4700
+Text Label 5800 5250 0    50   ~ 0
+RX+
+Text Label 5800 5450 0    50   ~ 0
+RX-
+Text Label 5800 5750 0    50   ~ 0
+TX-
+Text Label 5800 5550 0    50   ~ 0
+TX+
+Text Label 5750 5950 0    50   ~ 0
+LINK
+Text Label 5750 6150 0    50   ~ 0
+TRAFFIC
+$Comp
+L GND #PWR?
+U 1 1 587EA960
+P 6100 6300
+F 0 "#PWR?" H 6100 6050 50  0001 C CNN
+F 1 "GND" H 6100 6150 50  0000 C CNN
+F 2 "" H 6100 6300 50  0000 C CNN
+F 3 "" H 6100 6300 50  0000 C CNN
+	1    6100 6300
+	1    0    0    -1  
+$EndComp
+Text Label 4650 5900 0    50   ~ 0
+LINK
+Text Label 4650 5800 0    50   ~ 0
+TRAFFIC
+Wire Wire Line
+	4550 5800 4650 5800
+Wire Wire Line
+	4550 5900 4650 5900
+Text Label 4650 5600 0    50   ~ 0
+RX-
+Text Label 4650 5500 0    50   ~ 0
+RX+
+Text Label 4650 5300 0    50   ~ 0
+TX+
+Text Label 4650 5400 0    50   ~ 0
+TX-
+Wire Wire Line
+	4550 5300 4650 5300
+Wire Wire Line
+	4550 5400 4650 5400
+Wire Wire Line
+	4550 5500 4650 5500
+Wire Wire Line
+	4550 5600 4650 5600
+Text Label 4650 5700 0    50   ~ 0
+ETH3V3
+Text Label 5800 5350 0    50   ~ 0
+ETH3V3
+Text Label 5800 5650 0    50   ~ 0
+ETH3V3
+Wire Wire Line
+	4650 5700 4550 5700
+$Comp
+L RJ45-TRANSFO-NEW J?
+U 1 1 587FD01C
+P 7250 5750
+F 0 "J?" H 7350 6350 50  0000 L CNN
+F 1 "RJ45-TRANSFO-NEW" H 7200 6350 50  0000 R CNN
+F 2 "" H 7250 5750 50  0000 C CNN
+F 3 "" H 7250 5750 50  0000 C CNN
+	1    7250 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 5250 6150 5250
+Wire Wire Line
+	5800 5450 6150 5450
+Wire Wire Line
+	5800 5350 6150 5350
+Wire Wire Line
+	5800 5550 6150 5550
+Wire Wire Line
+	5800 5650 6150 5650
+Wire Wire Line
+	5800 5750 6150 5750
+Wire Wire Line
+	6150 5950 5750 5950
+Wire Wire Line
+	6150 6150 5750 6150
+Wire Wire Line
+	6150 6050 6100 6050
+Wire Wire Line
+	6100 6050 6100 6300
+Wire Wire Line
+	6100 6250 6150 6250
+Connection ~ 6100 6250
 $EndSCHEMATC
