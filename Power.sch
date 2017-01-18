@@ -29,11 +29,16 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:custom_lib
+LIBS:ic-misc
+LIBS:ic-cpu
+LIBS:MCP2200
+LIBS:w_connectors
+LIBS:E-GIF-M-Board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
