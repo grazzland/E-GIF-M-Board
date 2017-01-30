@@ -33,12 +33,13 @@ LIBS:ic-misc
 LIBS:ic-cpu
 LIBS:MCP2200
 LIBS:w_connectors
+LIBS:max-lin
 LIBS:E-GIF-M-Board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 5 7
 Title ""
 Date ""
 Rev ""

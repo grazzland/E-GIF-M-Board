@@ -33,12 +33,13 @@ LIBS:ic-misc
 LIBS:ic-cpu
 LIBS:MCP2200
 LIBS:w_connectors
+LIBS:max-lin
 LIBS:E-GIF-M-Board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 3 7
 Title ""
 Date ""
 Rev ""
@@ -149,10 +150,10 @@ F 3 "" H 2850 1850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR014
 U 1 1 587D3F4F
 P 2050 1900
-F 0 "#PWR?" H 2050 1650 50  0001 C CNN
+F 0 "#PWR014" H 2050 1650 50  0001 C CNN
 F 1 "GND" H 2050 1750 50  0000 C CNN
 F 2 "" H 2050 1900 50  0000 C CNN
 F 3 "" H 2050 1900 50  0000 C CNN
@@ -160,10 +161,10 @@ F 3 "" H 2050 1900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR015
 U 1 1 587D3F7C
 P 2500 2000
-F 0 "#PWR?" H 2500 1750 50  0001 C CNN
+F 0 "#PWR015" H 2500 1750 50  0001 C CNN
 F 1 "GND" H 2500 1850 50  0000 C CNN
 F 2 "" H 2500 2000 50  0000 C CNN
 F 3 "" H 2500 2000 50  0000 C CNN
@@ -171,10 +172,10 @@ F 3 "" H 2500 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR016
 U 1 1 587D3FA2
 P 2950 2100
-F 0 "#PWR?" H 2950 1850 50  0001 C CNN
+F 0 "#PWR016" H 2950 1850 50  0001 C CNN
 F 1 "GND" H 2950 1950 50  0000 C CNN
 F 2 "" H 2950 2100 50  0000 C CNN
 F 3 "" H 2950 2100 50  0000 C CNN
@@ -182,10 +183,10 @@ F 3 "" H 2950 2100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR017
 U 1 1 587D3FC8
 P 3400 2200
-F 0 "#PWR?" H 3400 1950 50  0001 C CNN
+F 0 "#PWR017" H 3400 1950 50  0001 C CNN
 F 1 "GND" H 3400 2050 50  0000 C CNN
 F 2 "" H 3400 2200 50  0000 C CNN
 F 3 "" H 3400 2200 50  0000 C CNN
@@ -193,10 +194,10 @@ F 3 "" H 3400 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR?
+L +3.3V #PWR018
 U 1 1 587D41CA
 P 3500 1300
-F 0 "#PWR?" H 3500 1150 50  0001 C CNN
+F 0 "#PWR018" H 3500 1150 50  0001 C CNN
 F 1 "+3.3V" H 3500 1440 50  0000 C CNN
 F 2 "" H 3500 1300 50  0000 C CNN
 F 3 "" H 3500 1300 50  0000 C CNN
@@ -271,10 +272,10 @@ Connection ~ 3500 1400
 Connection ~ 3500 1500
 Connection ~ 3500 1600
 $Comp
-L GND #PWR?
+L GND #PWR019
 U 1 1 587D4706
 P 3900 7000
-F 0 "#PWR?" H 3900 6750 50  0001 C CNN
+F 0 "#PWR019" H 3900 6750 50  0001 C CNN
 F 1 "GND" H 3900 6850 50  0000 C CNN
 F 2 "" H 3900 7000 50  0000 C CNN
 F 3 "" H 3900 7000 50  0000 C CNN
@@ -300,17 +301,17 @@ Connection ~ 3900 6800
 Wire Wire Line
 	4000 6900 3900 6900
 Connection ~ 3900 6900
-Text HLabel 3900 3900 0    60   BiDi ~ 0
+Text HLabel 3900 3900 0    50   BiDi ~ 0
 DA0
-Text HLabel 3900 4100 0    60   BiDi ~ 0
+Text HLabel 3900 4100 0    50   BiDi ~ 0
 CDA
-Text HLabel 3900 4200 0    60   Output ~ 0
+Text HLabel 3900 4200 0    50   Output ~ 0
 CK
-Text HLabel 3900 4300 0    60   BiDi ~ 0
+Text HLabel 3900 4300 0    50   BiDi ~ 0
 DA1
-Text HLabel 3900 4400 0    60   BiDi ~ 0
+Text HLabel 3900 4400 0    50   BiDi ~ 0
 DA2
-Text HLabel 3900 4500 0    60   BiDi ~ 0
+Text HLabel 3900 4500 0    50   BiDi ~ 0
 DA3
 Wire Wire Line
 	3900 3900 4000 3900
@@ -324,27 +325,27 @@ Wire Wire Line
 	3900 4400 4000 4400
 Wire Wire Line
 	3900 4500 4000 4500
-Text HLabel 3900 3300 0    60   Input ~ 0
+Text HLabel 3900 3300 0    50   Input ~ 0
 DRXD
-Text HLabel 3900 3400 0    60   Output ~ 0
+Text HLabel 3900 3400 0    50   Output ~ 0
 DTXD
 Wire Wire Line
 	3900 3300 4000 3300
 Wire Wire Line
 	3900 3400 4000 3400
-Text HLabel 5750 5800 2    60   Input ~ 0
+Text HLabel 5750 5800 2    50   Input ~ 0
 ETHRXP
-Text HLabel 5750 5900 2    60   Input ~ 0
+Text HLabel 5750 5900 2    50   Input ~ 0
 ETHRXN
-Text HLabel 5750 6000 2    60   Output ~ 0
+Text HLabel 5750 6000 2    50   Output ~ 0
 ETHTXP
-Text HLabel 5750 6100 2    60   Output ~ 0
+Text HLabel 5750 6100 2    50   Output ~ 0
 ETHTXN
-Text HLabel 5750 6200 2    60   Output ~ 0
+Text HLabel 5750 6200 2    50   Output ~ 0
 ETH3V3
-Text HLabel 5750 6300 2    60   Output ~ 0
+Text HLabel 5750 6300 2    50   Output ~ 0
 ETHLED1
-Text HLabel 5750 6400 2    60   Output ~ 0
+Text HLabel 5750 6400 2    50   Output ~ 0
 ETHLED2
 Wire Wire Line
 	5650 5800 5750 5800
@@ -360,4 +361,72 @@ Wire Wire Line
 	5650 6300 5750 6300
 Wire Wire Line
 	5650 6400 5750 6400
+Text HLabel 3900 3200 0    50   Input ~ 0
+RXD2
+Text HLabel 3900 3000 0    50   Input ~ 0
+TXD2
+Text HLabel 3900 2900 0    50   Input ~ 0
+RXD1
+Text HLabel 3900 2800 0    50   Input ~ 0
+TXD1
+Text HLabel 3900 2400 0    50   Input ~ 0
+RXD0
+Text HLabel 3900 2300 0    50   Input ~ 0
+TXD0
+Text HLabel 5750 4600 2    50   Input ~ 0
+TXD3
+Text HLabel 5750 4700 2    50   Input ~ 0
+RXD3
+Wire Wire Line
+	5650 4600 5750 4600
+Wire Wire Line
+	5650 4700 5750 4700
+Wire Wire Line
+	3900 2300 4000 2300
+Wire Wire Line
+	3900 2400 4000 2400
+Wire Wire Line
+	3900 2800 4000 2800
+Wire Wire Line
+	3900 2900 4000 2900
+Wire Wire Line
+	3900 3000 4000 3000
+Wire Wire Line
+	3900 3200 4000 3200
+Text HLabel 5750 1800 2    50   Input ~ 0
+USBAP
+Text HLabel 5750 1900 2    50   Input ~ 0
+USBAN
+Wire Wire Line
+	5650 1900 5750 1900
+Wire Wire Line
+	5650 1800 5750 1800
+Text HLabel 5750 4900 2    50   Input ~ 0
+PC24
+Text HLabel 5750 5000 2    50   Input ~ 0
+PC25
+Text HLabel 5750 5100 2    50   Input ~ 0
+PC26
+Text HLabel 5750 5200 2    50   Input ~ 0
+PC27
+Wire Wire Line
+	5650 5200 5750 5200
+Wire Wire Line
+	5650 5100 5750 5100
+Wire Wire Line
+	5650 5000 5750 5000
+Wire Wire Line
+	5650 4900 5750 4900
+Text HLabel 3900 2500 0    50   Input ~ 0
+PA2
+Text HLabel 3900 2600 0    50   Input ~ 0
+PA3
+Text HLabel 3900 2700 0    50   Input ~ 0
+PA4
+Wire Wire Line
+	3900 2500 4000 2500
+Wire Wire Line
+	3900 2600 4000 2600
+Wire Wire Line
+	3900 2700 4000 2700
 $EndSCHEMATC
