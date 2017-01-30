@@ -1,4 +1,4 @@
-update=1/17/2017 11:22:38 PM
+update=1/29/2017 7:21:54 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -73,3 +73,4 @@ LibName31=C:/Users/Calin/Dropbox/Workspace/KiCad/kicad-library/library/ic-misc
 LibName32=C:/Users/Calin/Dropbox/Workspace/KiCad/kicad-library/library/ic-cpu
 LibName33=C:/Users/Calin/Dropbox/Workspace/KiCad/libs/MCP2200
 LibName34=C:/Users/Calin/Dropbox/Workspace/KiCad/libs/w_connectors
+LibName35=C:/Users/Calin/Dropbox/Workspace/KiCad/libs/max-lin
