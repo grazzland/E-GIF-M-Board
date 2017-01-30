@@ -1,4 +1,4 @@
-update=1/29/2017 7:21:54 PM
+update=1/30/2017 10:02:23 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=ACS_Layout.kicad_wks
@@ -74,3 +72,5 @@ LibName32=C:/Users/Calin/Dropbox/Workspace/KiCad/kicad-library/library/ic-cpu
 LibName33=C:/Users/Calin/Dropbox/Workspace/KiCad/libs/MCP2200
 LibName34=C:/Users/Calin/Dropbox/Workspace/KiCad/libs/w_connectors
 LibName35=C:/Users/Calin/Dropbox/Workspace/KiCad/libs/max-lin
+[general]
+version=1

@@ -197,4 +197,8 @@ Text Notes 7400 3800 0    50   ~ 0
 <RS232>
 Text Notes 7400 4300 0    50   ~ 0
 <RS485>
+Text Notes 8900 4000 0    60   ~ 0
+<- Pentru RS232, RX la TX
+Text Notes 8900 4550 0    60   ~ 0
+<- Pentru RS485 DI la TX si RO laRX
 $EndSCHEMATC
