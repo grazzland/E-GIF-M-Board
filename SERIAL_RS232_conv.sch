@@ -34,6 +34,7 @@ LIBS:ic-cpu
 LIBS:MCP2200
 LIBS:w_connectors
 LIBS:max-lin
+LIBS:IHE
 LIBS:E-GIF-M-Board-cache
 EELAYER 25 0
 EELAYER END

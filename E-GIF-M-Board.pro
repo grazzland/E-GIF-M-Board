@@ -1,4 +1,4 @@
-update=1/30/2017 10:02:23 AM
+update=2/5/2017 8:07:38 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -33,6 +33,8 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../E-GIF-M-Board
@@ -72,5 +74,4 @@ LibName32=C:/Users/Calin/Dropbox/Workspace/KiCad/kicad-library/library/ic-cpu
 LibName33=C:/Users/Calin/Dropbox/Workspace/KiCad/libs/MCP2200
 LibName34=C:/Users/Calin/Dropbox/Workspace/KiCad/libs/w_connectors
 LibName35=C:/Users/Calin/Dropbox/Workspace/KiCad/libs/max-lin
-[general]
-version=1
+LibName36=C:/Users/Calin/Dropbox/Workspace/KiCad/libs/IHE
