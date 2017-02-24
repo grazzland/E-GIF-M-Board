@@ -233,13 +233,13 @@ DRXD
 Text HLabel 3900 3400 0    50   Output ~ 0
 DTXD
 Text HLabel 5750 5800 2    50   Input ~ 0
-ETHRXP
+ETHRX_P
 Text HLabel 5750 5900 2    50   Input ~ 0
-ETHRXN
+ETHRX_N
 Text HLabel 5750 6000 2    50   Output ~ 0
-ETHTXP
+ETHTX_P
 Text HLabel 5750 6100 2    50   Output ~ 0
-ETHTXN
+ETHTX_N
 Text HLabel 6400 6200 2    50   Output ~ 0
 ETH3V3
 Text HLabel 5750 6300 2    50   Output ~ 0
@@ -263,9 +263,9 @@ TXD3
 Text HLabel 5750 4700 2    50   Input ~ 0
 RXD3
 Text HLabel 5750 1800 2    50   BiDi ~ 0
-USBAP
+USBA_P
 Text HLabel 5750 1900 2    50   BiDi ~ 0
-USBAN
+USBA_N
 Text HLabel 5750 4900 2    50   BiDi ~ 0
 PC24
 Text HLabel 5750 5000 2    50   BiDi ~ 0
@@ -307,13 +307,13 @@ $EndComp
 Text Label 3750 1900 0    50   ~ 0
 VBAT
 Text HLabel 5750 1700 2    50   BiDi ~ 0
-USBBN
+USBB_N
 Text HLabel 5750 1600 2    50   BiDi ~ 0
-USBBP
+USBB_P
 Text HLabel 5750 1400 2    50   BiDi ~ 0
-USBCP
+USBC_P
 Text HLabel 5750 1500 2    50   BiDi ~ 0
-USBCN
+USBC_N
 $Comp
 L SW_TACT S1
 U 1 1 5897AD81
