@@ -121,7 +121,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 3200 4200 3200
 Wire Wire Line
-	4100 3500 4200 3500
+	3650 3500 4200 3500
 Connection ~ 4100 3200
 Connection ~ 4100 3500
 Wire Wire Line
@@ -182,7 +182,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 3200 7150 3200
 Wire Wire Line
-	7050 3500 7150 3500
+	6600 3500 7150 3500
 Connection ~ 7050 3200
 Connection ~ 7050 3500
 Wire Wire Line
@@ -266,67 +266,6 @@ Wire Wire Line
 	7050 4550 7050 4450
 Wire Wire Line
 	4100 4550 4100 4450
-$Comp
-L +3.3V #PWR074
-U 1 1 588FF500
-P 2850 4150
-F 0 "#PWR074" H 2850 4000 50  0001 C CNN
-F 1 "+3.3V" H 2850 4290 50  0000 C CNN
-F 2 "" H 2850 4150 50  0000 C CNN
-F 3 "" H 2850 4150 50  0000 C CNN
-	1    2850 4150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L C C49
-U 1 1 588FF506
-P 3300 4400
-F 0 "C49" H 3150 4550 50  0000 L CNN
-F 1 "1uF" H 3050 4400 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3338 4250 50  0001 C CNN
-F 3 "" H 3300 4400 50  0000 C CNN
-	1    3300 4400
-	-1   0    0    1   
-$EndComp
-$Comp
-L C C48
-U 1 1 588FF50C
-P 3000 4400
-F 0 "C48" H 3025 4500 50  0000 L CNN
-F 1 "100nF" H 3050 4300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3038 4250 50  0001 C CNN
-F 3 "" H 3000 4400 50  0000 C CNN
-	1    3000 4400
-	-1   0    0    1   
-$EndComp
-$Comp
-L GND #PWR075
-U 1 1 588FF512
-P 3150 4650
-F 0 "#PWR075" H 3150 4400 50  0001 C CNN
-F 1 "GND" H 3150 4500 50  0000 C CNN
-F 2 "" H 3150 4650 50  0000 C CNN
-F 3 "" H 3150 4650 50  0000 C CNN
-	1    3150 4650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 4150 3300 4250
-Wire Wire Line
-	3000 4150 3000 4250
-Connection ~ 3300 4150
-Connection ~ 3000 4150
-Wire Wire Line
-	3150 4650 3150 4600
-Wire Wire Line
-	3300 4600 3000 4600
-Wire Wire Line
-	3300 4600 3300 4550
-Wire Wire Line
-	3000 4600 3000 4550
-Connection ~ 3150 4600
-Wire Wire Line
-	2850 4150 3700 4150
 Text HLabel 3600 4250 0    50   Output ~ 0
 DI_IN
 Text HLabel 3600 3850 0    50   Input ~ 0
@@ -363,69 +302,6 @@ Wire Wire Line
 	6550 3950 6650 3950
 Text HLabel 6550 3850 0    50   Input ~ 0
 RO_OUT
-Text HLabel 6600 4250 0    50   Output ~ 0
-DI_OUT
-$Comp
-L +3.3V #PWR078
-U 1 1 588FFF45
-P 5800 4150
-F 0 "#PWR078" H 5800 4000 50  0001 C CNN
-F 1 "+3.3V" H 5800 4290 50  0000 C CNN
-F 2 "" H 5800 4150 50  0000 C CNN
-F 3 "" H 5800 4150 50  0000 C CNN
-	1    5800 4150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L C C53
-U 1 1 588FFF4B
-P 6250 4400
-F 0 "C53" H 6050 4500 50  0000 L CNN
-F 1 "1uF" H 6000 4350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6288 4250 50  0001 C CNN
-F 3 "" H 6250 4400 50  0000 C CNN
-	1    6250 4400
-	-1   0    0    1   
-$EndComp
-$Comp
-L C C52
-U 1 1 588FFF51
-P 5950 4400
-F 0 "C52" H 5975 4500 50  0000 L CNN
-F 1 "100nF" H 6100 4400 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5988 4250 50  0001 C CNN
-F 3 "" H 5950 4400 50  0000 C CNN
-	1    5950 4400
-	-1   0    0    1   
-$EndComp
-$Comp
-L GND #PWR079
-U 1 1 588FFF57
-P 6100 4650
-F 0 "#PWR079" H 6100 4400 50  0001 C CNN
-F 1 "GND" H 6100 4500 50  0000 C CNN
-F 2 "" H 6100 4650 50  0000 C CNN
-F 3 "" H 6100 4650 50  0000 C CNN
-	1    6100 4650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6250 4150 6250 4250
-Wire Wire Line
-	5950 4150 5950 4250
-Connection ~ 6250 4150
-Connection ~ 5950 4150
-Wire Wire Line
-	6100 4650 6100 4600
-Wire Wire Line
-	6250 4600 5950 4600
-Wire Wire Line
-	6250 4600 6250 4550
-Wire Wire Line
-	5950 4600 5950 4550
-Connection ~ 6100 4600
-Wire Wire Line
-	5800 4150 6650 4150
 Wire Wire Line
 	6600 4250 6650 4250
 Text Notes 7000 6750 0    50   ~ 0
@@ -436,4 +312,14 @@ Text Notes 7000 6850 0    50   ~ 0
 The driver outputs are enabled by bringing DE high.
 Wire Wire Line
 	6550 3850 6650 3850
+Wire Wire Line
+	3700 4150 3650 4150
+Wire Wire Line
+	3650 4150 3650 3500
+Text HLabel 6600 4250 0    50   Output ~ 0
+DI_OUT
+Wire Wire Line
+	6650 4150 6600 4150
+Wire Wire Line
+	6600 4150 6600 3500
 $EndSCHEMATC
