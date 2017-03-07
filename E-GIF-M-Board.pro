@@ -1,4 +1,4 @@
-update=2/23/2017 1:00:34 PM
+update=3/7/2017 8:45:26 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -33,6 +33,8 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../E-GIF-M-Board
@@ -66,12 +68,12 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=C:/Users/Calin/Dropbox/Workspace/Proiecte_Lab_Teme/E-GIF-M/E-GIF-M-Board/custom_lib
-LibName31=C:/Users/Calin/Dropbox/Workspace/KiCad/kicad-library/library/ic-misc
-LibName32=C:/Users/Calin/Dropbox/Workspace/KiCad/kicad-library/library/ic-cpu
-LibName33=C:/Users/Calin/Dropbox/Workspace/KiCad/libs/MCP2200
-LibName34=C:/Users/Calin/Dropbox/Workspace/KiCad/libs/w_connectors
-LibName35=C:/Users/Calin/Dropbox/Workspace/KiCad/libs/max-lin
-LibName36=C:/Users/Calin/Dropbox/Workspace/KiCad/libs/IHE
-[general]
-version=1
+LibName30=switches
+LibName31=references
+LibName32=C:/Users/Calin/Dropbox/Workspace/Proiecte_Lab_Teme/E-GIF-M/E-GIF-M-Board/custom_lib
+LibName33=C:/Users/Calin/Dropbox/Workspace/KiCad/kicad-library/library/ic-misc
+LibName34=C:/Users/Calin/Dropbox/Workspace/KiCad/kicad-library/library/ic-cpu
+LibName35=C:/Users/Calin/Dropbox/Workspace/KiCad/libs/MCP2200
+LibName36=C:/Users/Calin/Dropbox/Workspace/KiCad/libs/w_connectors
+LibName37=C:/Users/Calin/Dropbox/Workspace/KiCad/libs/max-lin
+LibName38=C:/Users/Calin/Dropbox/Workspace/KiCad/libs/IHE
